@@ -1,0 +1,20 @@
+var arr = document.getElementsByClassName("anavmfe__accordion__item");
+undefined
+arr[3].removeChild(arr[3].children[0]);
+<div class=​"anavmfe__accordion__item__trigger ">​…​</div>​
+arr[2].appendChild(arr[3].children[0]);
+<div class=​"anavmfe__accordion__body  collapsed">​…​</div>​
+var c1 = document.querySelector("input[name='27387']");
+undefined
+c1.checked = true;
+true
+var c2 = document.querySelector("input[name='28434']");
+undefined
+c2.checked = true;
+true
+var k = document.getElementsByClassName("show-less-text");
+undefined
+k[0].removeChild(k[0].firstChild);
+"Show Less"
+47506db5900bac10f3c7efabfdaf89f3.js?conditionId0=421951:743 <div>​</div>​
+47506db5900bac10f3c7efabfdaf89f3.js?conditionId0=421951:743 <div>​</div>​
