@@ -1,0 +1,28 @@
+var p1 = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(15) > div > div.col-xs-12.col-sm-6.half-modules-outer-container > div:nth-child(1) > a > div.half-inner-module-image.text-centered > img");
+undefined
+var p2 = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(15) > div > div.col-xs-12.col-sm-6.half-modules-outer-container > div:nth-child(2) > a > div.half-inner-module-image.text-centered > img");
+undefined
+var p3 = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(15) > div > div.col-xs-12.col-sm-6.half-modules-outer-container > div:nth-child(3) > a > div.half-inner-module-image.text-centered > img");
+undefined
+var p4 = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(15) > div > div.col-xs-12.col-sm-6.half-modules-outer-container > div:nth-child(4) > a > div.half-inner-module-image.text-centered > img");
+undefined
+var r1 = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(29) > div > div.col-xs-12.col-sm-6.half-modules-outer-container > div:nth-child(1) > a > div.half-inner-module-image.text-centered > img");
+undefined
+var r2 = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(29) > div > div.col-xs-12.col-sm-6.half-modules-outer-container > div:nth-child(2) > a > div.half-inner-module-image.text-centered > img");
+undefined
+var r3 = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(29) > div > div.col-xs-12.col-sm-6.half-modules-outer-container > div:nth-child(3) > a > div.half-inner-module-image.text-centered > img");
+undefined
+var r4 = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(29) > div > div.col-xs-12.col-sm-6.half-modules-outer-container > div:nth-child(4) > a > div.half-inner-module-image.text-centered > img");
+undefined
+p1.replaceWith(r1);
+undefined
+p2.replaceWith(r2);
+undefined
+p3.replaceWith(r3);
+undefined
+p4.replaceWith(r4);
+undefined
+var bg = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(15) > div > div.col-xs-12.col-sm-6.half-hero-outer-container");
+undefined
+bg.style.backgroundColor = "purple";
+"purple"
