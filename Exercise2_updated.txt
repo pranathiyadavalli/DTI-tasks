@@ -1,0 +1,13 @@
+var networkLocation = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(15) > div > div.col-xs-12.col-sm-6.half-modules-outer-container");
+
+const networkImages = networkLocation.getElementsByTagName("img");
+
+var cameraLocation = document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(29) > div > div.col-xs-12.col-sm-6.half-modules-outer-container");
+
+const camImages = cameraLocation.getElementsByTagName("img");
+
+for (var i = 3; i >= 0; i--) {
+    networkImages[i].replaceWith(camImages[i]);
+}
+
+document.querySelector("#topcontent > div.top-offset-20 > div:nth-child(15) > div > div.col-xs-12.col-sm-6.half-hero-outer-container").style.backgroundColor = "purple";
