@@ -1,6 +1,6 @@
 var arr = document.getElementsByClassName("anavmfe__accordion__item");
-undefined
+
 arr[0].insertAdjacentElement('beforebegin', arr[3]);
-<div class=​"anavmfe__accordion__item">​…​</div>​
+
 arr[2].insertAdjacentElement('beforebegin', arr[3]);
-<div class=​"anavmfe__accordion__item">​…​</div>​
+
