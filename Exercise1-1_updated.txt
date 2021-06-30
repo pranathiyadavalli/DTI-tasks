@@ -1,0 +1,11 @@
+var navBarItems = document.getElementsByClassName("anavmfe__accordion__item");
+
+var processorGenItems = navBarItems[3].children[1];
+
+navBarItems[3].parentNode.removeChild(navBarItems[3]);
+
+navBarItems[2].appendChild(processorGenItems);
+
+var shippingItem1 = document.querySelector("input[name='27387']").checked = true;
+
+var processorItem1 = document.querySelector("input[name='28434']").checked = true;
